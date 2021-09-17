@@ -44,7 +44,7 @@ export default {
       ctx: null
     }
   },
-  render(h) {
+  render() {
     return h('div', [
       h('canvas', {
         ref: 'canvas',
